@@ -36,8 +36,17 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
   
-  var resultado= 10 + 5;
-  alert("La suma es:" + resultado);
+  var resultado;
+
+  var numero1 = 3;
+  var numero2 = 5;
+  
+  // Se suman los números y se muestra el resultado
+  resultado = numero1 + numero2;
+  alert("El resultado es " + resultado);
+  
+  numero1 = 10;
+  numero2 = 7;
   
 }
 
